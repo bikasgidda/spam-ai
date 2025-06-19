@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: spam-ai
+    runtime: python
+    buildCommand: ""
+    startCommand: "python app.py"
